@@ -1,0 +1,99 @@
+.contenedor{
+   /* display: flex;
+   align-items: center;
+   justify-content: center; */ 
+   height: auto;
+}
+
+#services{
+   /*  margin-top: ; */
+    padding: 50px; 
+    position: sticky; 
+    height: auto; 
+    width: 100%;
+    background-color: #ccc;
+    z-index: 10;
+    margin-left: 0;
+}
+
+h2{
+    text-align: center;
+    color:rgb(35, 45, 59);
+    font-size: 55px;
+    font-family: 'Dancing Script', cursive;
+}
+
+#barrita{
+    height: auto;
+    width: 200px;
+    margin: auto;
+    margin-top: 20px;
+    background-color:rgb(28, 217, 189);
+    height: 12px;
+    border-radius: 4px;
+    border:0px;
+}
+
+.imagenes{
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+   
+}
+
+
+
+.foto{
+    background-size: cover;
+    width: 340px; 
+    height: 340px;
+   
+}
+#foto1{
+    background: url(../../shared/barra.jpg);
+    background-size: cover;
+  }
+
+#foto2{
+    background: url(../../shared/entrada-playmobil.jpg);
+    background-size: cover;
+  }
+
+  #foto3{
+    background: url(../../shared/vestido.jpg);
+    background-size: cover;  
+  }
+
+
+  h3{
+   /*  width: 280px; */
+   /*  margin: 25px;   */
+   text-align: center;
+   color: rgb(35, 45, 59);
+  }
+  div >p {
+      width: 280px;
+      font-size: 16px;
+      text-align: justify;
+    margin: auto;
+     
+  }
+
+
+  .tarjeta{
+      height: 600px;
+     /*  background-color: azure; */
+     
+      
+  }
+@media (max-width: 768px) {
+    .text{
+        position: absolute;
+        top: 200px;
+        
+       
+    }
+}

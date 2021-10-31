@@ -1,0 +1,114 @@
+.invisible{
+    height: 100px;
+    width: 100vw;
+    background-color: lightcoral;
+  
+  }
+
+  .transparente{
+      height: calc( 100vh - 100px) ;
+     /*  background-color: chocolate; */
+     background-color: bue;
+      width: 98vw;
+      /* position: absolute;  */
+  }
+
+ .image{
+     background-image: url(../../shared/interno.jpg);
+     background-size: cover;
+    height: calc( 100vh - 100px );
+    max-width: 100%;
+    background-repeat: no-repeat;
+    min-width: 100%;
+    background-position: center;
+    position: fixed;
+    z-index: 0;
+} 
+
+.principal{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.text{
+    width: 100%;
+    padding: 40px;
+    background-color: rgba(35, 45, 59, 0.6);
+    /* filter: blur(px); 
+    text-align: center;*/
+    
+    
+   
+}
+h2{
+    color: rgb(28, 217, 189);
+    font-size: 65px;
+    
+    
+}
+.principal{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.text{
+    width: 100%;
+    padding: 40px;
+    background-color: rgba(35, 45, 59, 0.6);
+    /* filter: blur(px); */
+    text-align: center;
+    
+    
+   
+}
+h2{
+    color: rgb(28, 217, 189);
+    font-size: 65px;
+    
+    
+}
+
+
+.space{
+   
+   
+    height: calc( 100vh - 200px);
+}
+
+
+#flecha{margin: auto;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(28, 217, 189);
+    background-image: url(../../shared/FLECHABAJO.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    transition: all ease-in-out 0.8s;
+    
+}
+
+.visible{
+    background-color: rgba(28, 217, 189, 1);
+}
+.invisible{
+    background-color: rgba(28, 217, 189, 0.2);
+}
+
+@media (max-width:546px){
+  .contenedor{
+      margin-top: 100px;
+  }
+  
+}
+
+@media (max-width:537px){
+    .contenedor{
+        margin-top: 180px;
+        height: 0px;
+    } 
+    
+}
