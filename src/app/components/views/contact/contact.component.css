@@ -1,0 +1,35 @@
+.contenedor{
+    width: 100vw;
+    height: fit-content;
+    background-color: #ccc;;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+h2{
+    margin-top: 20px;
+    font-family: 'Dancing Script', cursive;
+    color:rgb(35, 45, 59);
+    font-size: 55px;
+   /*  width: 100vw; */
+    text-align: center;
+}
+
+ .container {
+  width: 100vw;
+  height:fit-content;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.formulario{
+    width: 80vw;
+}
