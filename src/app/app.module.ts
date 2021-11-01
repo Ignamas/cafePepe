@@ -9,6 +9,7 @@ import { ServicesComponent } from './components/views/services/services.componen
 import { interval,timer } from 'rxjs';
 import { AboutComponent } from './components/views/about/about.component';
 import { ContactComponent } from './components/views/contact/contact.component';
+import { FooterComponent } from './components/views/footer/footer.component';
 
 
 
@@ -20,6 +21,7 @@ import { ContactComponent } from './components/views/contact/contact.component';
     ServicesComponent,
     AboutComponent,
     ContactComponent,
+    FooterComponent,
 
   ],
   imports: [

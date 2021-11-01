@@ -41,6 +41,7 @@ h2{
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
+   
 }
 
 
@@ -49,10 +50,12 @@ h2{
     background-size: cover;
     width: 340px; 
     height: 340px;
+    
 }
 #foto1{
     background: url(../../shared/barra.jpg);
     background-size: cover;
+    
   }
 #foto2{
     background: url(../../shared/entrada-playmobil.jpg);
@@ -90,5 +93,14 @@ h2{
         top: 200px;
         
        
+    }
+}
+
+@media (max-width: 340px){
+    .foto{
+        background-size: cover;
+        width: 100vw; 
+        height: 340px;
+        
     }
 }
