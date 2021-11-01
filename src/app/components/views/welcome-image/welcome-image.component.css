@@ -11,7 +11,7 @@
      background-color: bue;
       width: 98vw;
       /* position: absolute;  */
-  }
+  } 
 
  .image{
      background-image: url(../../shared/interno.jpg);
@@ -51,6 +51,7 @@ h2{
     display:flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
     
 }
 .text{
@@ -103,6 +104,7 @@ h2{
       margin-top: 100px;
   }
   
+  
 }
 
 @media (max-width:537px){
@@ -110,5 +112,15 @@ h2{
         margin-top: 180px;
         height: 0px;
     } 
+    h2{
+        display: none;
+    }
+    .principal{
+        display: none;
+    }
+    .image{
+        display: none;
+    }
+  
     
 }

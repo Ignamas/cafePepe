@@ -3,6 +3,7 @@
    align-items: center;
    justify-content: center; */ 
    height: auto;
+   width: 100vw; 
 }
 
 #services{
@@ -40,7 +41,6 @@ h2{
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
-    
    
 }
 
@@ -50,18 +50,17 @@ h2{
     background-size: cover;
     width: 340px; 
     height: 340px;
-   
+    
 }
 #foto1{
     background: url(../../shared/barra.jpg);
     background-size: cover;
+    
   }
-
 #foto2{
     background: url(../../shared/entrada-playmobil.jpg);
     background-size: cover;
   }
-
   #foto3{
     background: url(../../shared/vestido.jpg);
     background-size: cover;  
@@ -69,8 +68,7 @@ h2{
 
 
   h3{
-   /*  width: 280px; */
-   /*  margin: 25px;   */
+ 
    text-align: center;
    color: rgb(35, 45, 59);
   }
@@ -95,5 +93,14 @@ h2{
         top: 200px;
         
        
+    }
+}
+
+@media (max-width: 340px){
+    .foto{
+        background-size: cover;
+        width: 100vw; 
+        height: 340px;
+        
     }
 }

@@ -51,4 +51,23 @@ padding: 15px;
   color: /* rgb(204, 179, 35) */rgb(110, 174, 162);
 }
 
+@media (max-width:500px){
+  #brand {
+   width: 100vw;
+   height: 150%;
+    
+  }
+  .contenedor{
+    display: flex;
+    flex-wrap:wrap;
+    width: 100vw;
+    max-height: 200px;
+  }
+  .navbar {
+    width: 100vw;
+  }
+  nav-item{
+      width: 270px;
+  }
 
+}

@@ -1,0 +1,19 @@
+#foot{
+    position: relative;
+    width: 100vw;
+    background-color: rgb(35, 45, 59);
+   /*  height: 40px; */
+    color: #ccc;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h5{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10x;
+    font-weight: normal;
+}

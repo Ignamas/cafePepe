@@ -7,6 +7,9 @@ import { NavbarComponent } from './components/views/navbar/navbar.component';
 import { WelcomeImageComponent } from './components/views/welcome-image/welcome-image.component';
 import { ServicesComponent } from './components/views/services/services.component';
 import { interval,timer } from 'rxjs';
+import { AboutComponent } from './components/views/about/about.component';
+import { ContactComponent } from './components/views/contact/contact.component';
+import { FooterComponent } from './components/views/footer/footer.component';
 
 
 
@@ -16,6 +19,9 @@ import { interval,timer } from 'rxjs';
     NavbarComponent,
     WelcomeImageComponent,
     ServicesComponent,
+    AboutComponent,
+    ContactComponent,
+    FooterComponent,
 
   ],
   imports: [

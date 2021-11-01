@@ -10,10 +10,8 @@ export class NavbarComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-  this.transparencia;
+ 
   }
 
-transparencia =()=>{
-    document.write("hola");
-    }
+
 }
