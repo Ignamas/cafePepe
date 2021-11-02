@@ -3,7 +3,7 @@
     width: 100vw;
     background-color: #ccc;
 }
-.contenedor{
+.contenedor{ 
     width: 100vw;
     height: fit-content;
     position: relative;
@@ -51,3 +51,11 @@ h2{
 }
 
 
+button{
+    margin-top: 25px;
+    float: right;
+    background-color: rgb(35, 45, 59);
+    color: rgb(28, 217, 189);
+    padding: 3px;
+    min-width: 10vw;
+}

@@ -10,6 +10,15 @@ import { interval,timer } from 'rxjs';
 import { AboutComponent } from './components/views/about/about.component';
 import { ContactComponent } from './components/views/contact/contact.component';
 import { FooterComponent } from './components/views/footer/footer.component';
+import { EnvioService } from './servicio/envio.service';
+
+
+
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import { MouseHoverDirective } from './shared/mouse-hover.directive'
 
 
 
@@ -22,11 +31,20 @@ import { FooterComponent } from './components/views/footer/footer.component';
     AboutComponent,
     ContactComponent,
     FooterComponent,
+    MouseHoverDirective,
+    
+    
 
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule,
+    BrowserModule,
+    BrowserAnimationsModule,
+    MatFormFieldModule
   ],
   providers: [],
   bootstrap: [AppComponent]
