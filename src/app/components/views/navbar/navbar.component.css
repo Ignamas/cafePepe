@@ -38,17 +38,29 @@ padding: 15px;
 }
 
 .nav-item {
-    padding: 20px;
- margin: auto;
-  color: #ddd;
+  padding: 20px;
+  margin: auto;
+  
   flex-wrap: nowrap;
- 
+  
   
   cursor: pointer;
+  /* background-color: blueviolet; */
+
+  width: auto;
+  text-align: center;
+  line-height: 200%;
 }
 
-.nav-item:hover {
+a{
+  text-decoration: none;
+  color: #ddd;
+  height: 100%;
+}
+.nav-item:hover > a {
+  
   color: /* rgb(204, 179, 35) */rgb(110, 174, 162);
+  /* background-color: blue; */
 }
 
 @media (max-width:500px){

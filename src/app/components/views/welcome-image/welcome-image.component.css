@@ -1,6 +1,6 @@
 .invisible{
     height: 100px;
-    width: 100vw;
+    width: 98vw;
     background-color: lightcoral;
   
   }
@@ -29,46 +29,27 @@
     display:flex;
     align-items: center;
     justify-content: center;
+    width: 100vw;
+    
     
 }
 .text{
-    width: 100%;
-    padding: 40px;
-    background-color: rgba(35, 45, 59, 0.6);
-    /* filter: blur(px); 
-    text-align: center;*/
     
-    
-   
-}
-h2{
-    color: rgb(28, 217, 189);
-    font-size: 65px;
-    
-    
-}
-.principal{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    
-}
-.text{
-    width: 100%;
+     width: 100%; 
     padding: 40px;
     background-color: rgba(35, 45, 59, 0.6);
     /* filter: blur(px); */
     text-align: center;
     
     
+
    
 }
-h2{
+.text > h2{
     color: rgb(28, 217, 189);
     font-size: 65px;
-    
-    
+
+
 }
 
 
@@ -106,6 +87,10 @@ h2{
   
   
 }
+
+
+
+
 
 @media (max-width:537px){
     .contenedor{

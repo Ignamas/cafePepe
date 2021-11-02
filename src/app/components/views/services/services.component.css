@@ -11,7 +11,7 @@
     padding: 50px; 
     position: sticky; 
     height: auto; 
-    width: 100%;
+    width: 100vw;
     background-color: #ccc;
     z-index: 10;
     margin-left: 0;
@@ -50,6 +50,7 @@ h2{
     background-size: cover;
     width: 340px; 
     height: 340px;
+    background-position: center;
     
 }
 #foto1{
