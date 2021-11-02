@@ -10,16 +10,22 @@ export class MouseHoverDirective {
     
     this._render.setStyle(
       this._ElementRef.nativeElement,
+      'background-size', '100%')
+
+      this._render.setStyle(
+       this._ElementRef.nativeElement,
+       'background-position', 'center'
+     )
+     
+    this._render.setStyle(
+      this._ElementRef.nativeElement,
       'transition', '0.3s all ease-in-out'
    )
+
    this._render.setStyle(
     this._ElementRef.nativeElement,
     'background-size', '180%'
  )
- this._render.setStyle(
-  this._ElementRef.nativeElement,
-  'background-position', 'center'
-)
  }
  @HostListener('mouseleave') onMouseLeave(){
   this._render.setStyle(

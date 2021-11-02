@@ -30,28 +30,26 @@
     align-items: center;
     justify-content: center;
     width: 100vw;
-    
-    
 }
 .text{
+    width: 100%; 
     
-     width: 100%; 
-    padding: 40px;
     background-color: rgba(35, 45, 59, 0.6);
     /* filter: blur(px); */
-    text-align: center;
-    
-    
-
-   
+    text-align: center;   
 }
-.text > h2{
+ h3{
+    width: 100%; 
     color: rgb(28, 217, 189);
     font-size: 65px;
-
+    line-height: 65px;
+    
 
 }
 
+.titulo{
+    height: 200px;
+}
 
 .space{
    
@@ -83,9 +81,10 @@
 @media (max-width:546px){
   .contenedor{
       margin-top: 100px;
+  }  
+  .transparente{
+      display: none;
   }
-  
-  
 }
 
 
@@ -105,7 +104,5 @@
     }
     .image{
         display: none;
-    }
-  
-    
+    }   
 }
